@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3c80;
+}
+
+.list-kategori .title {
+  text-align: center;
+  margin-bottom: 1.65rem;
+}
+
+.list-kategori .title span {
+  font-weight: 700;
+}
+
+.list-kategori .btn-list-kategori {
+  background-color: #d3daff;
+  border-radius: 8px;
+  width: 165px;
+  height: 55px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list-kategori .btn-list-kategori span {
+  text-align: left;
+}
+
+.list-kategori .btn-list-kategori img {
+  margin-right: 10px;
+}
+
+.list-kategori .btn-list-kategori:hover {
+  background-color: transparent;
+  border: 1px solid #2f3c80;
+}
+/*# sourceMappingURL=listKategori.css.map */

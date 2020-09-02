@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3c80;
+}
+
+.list-testimoni .title {
+  text-align: center;
+  margin-bottom: 1.65rem;
+}
+
+.list-testimoni .title span {
+  font-weight: 700;
+}
+
+.list-testimoni .card-testimoni {
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 5px 25px rgba(0, 0, 0, 0.12);
+          box-shadow: 8px 5px 25px rgba(0, 0, 0, 0.12);
+  width: 555px;
+  height: 277px;
+  padding: 40px;
+}
+
+.list-testimoni .card-testimoni .user-testimoni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.list-testimoni .card-testimoni .user-testimoni img {
+  width: 80px;
+  height: auto;
+  margin-right: 1.6rem;
+}
+
+.list-testimoni .card-testimoni .user-testimoni .user-info-testimoni h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list-testimoni .card-testimoni .user-testimoni .user-info-testimoni p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.list-testimoni .card-testimoni .user-konten-testimoni p {
+  font-size: 18px;
+  font-style: italic;
+  color: #a2a2a2;
+}
+/*# sourceMappingURL=listTestimonial.css.map */

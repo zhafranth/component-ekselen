@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  color: #2f3c80;
+}
+
+.list-benefit {
+  .title {
+    span {
+      font-weight: 700;
+    }
+    text-align: center;
+    margin-bottom: 1.65rem;
+  }
+  .konten-benefit {
+    margin-top: 50px;
+    .konten-judul {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .konten-isi {
+      line-height: 2rem;
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3c80;
+}
+
+.list-benefit .title {
+  text-align: center;
+  margin-bottom: 1.65rem;
+}
+
+.list-benefit .title span {
+  font-weight: 700;
+}
+
+.list-benefit .konten-benefit {
+  margin-top: 50px;
+}
+
+.list-benefit .konten-benefit .konten-judul {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.list-benefit .konten-benefit .konten-isi {
+  line-height: 2rem;
+}
+
+.list-benefit .konten-benefit .konten-isi span {
+  font-weight: 600;
+}
+/*# sourceMappingURL=listBenefit.css.map */

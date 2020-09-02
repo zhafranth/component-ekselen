@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  color: #2f3c80;
+}
+
+.btn-kategori {
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.btn-kategori-item {
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+
+/* Card */
+
+.card-product {
+  width: 262px;
+  border-radius: 10px;
+  padding: 0.42rem;
+}
+
+.card-body {
+  padding: 1rem 0;
+}
+
+.card-body .kategori-kelas {
+  font-size: 14px;
+}
+
+.card-body .judul-kelas,
+.instruktur-kelas .nama-instruktur-kelas {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-body .pekerjaan-instruktur-kelas {
+  font-size: 12px;
+  color: #848484;
+}
+
+.instruktur-kelas-card {
+  margin: 1.23rem 0 0 0;
+}
+
+hr {
+  margin: 0 0 1rem 0;
+}
+
+.info-harga-kelas {
+  margin-top: 1.2rem;
+}
+.info-harga-kelas .harga-kelas,
+.info-harga-kelas .harga-diskon-kelas {
+  font-size: 18px;
+}
+.info-harga-kelas .harga-kelas {
+  font-weight: 300;
+}
+.info-harga-kelas .harga-diskon-kelas {
+  font-weight: 600;
+}

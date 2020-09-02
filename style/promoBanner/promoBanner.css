@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3c80;
+}
+
+.promosi-banner {
+  width: 100%;
+  position: relative;
+}
+
+.promosi-banner .promosi-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.promosi-banner .promosi-konten {
+  font-size: 18px;
+  color: #ffffff;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  margin: 50px 0 0 50px;
+  line-height: 2.32rem;
+  font-weight: 300;
+}
+
+.promosi-banner .promosi-konten span {
+  font-weight: 700;
+}
+/*# sourceMappingURL=promoBanner.css.map */
