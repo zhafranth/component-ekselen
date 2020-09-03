@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-color: #f0f1f4;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3c80;
+}
+
+.card-login {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 950px;
+}
+
+.card-login .side-backdrop {
+  background: url(../../assets/images/bakdrop-login.png);
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-login .side-backdrop img {
+  width: 76px;
+  margin: 0 auto;
+}
+
+.card-login .side-backdrop h5 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-login .side-backdrop h5 span {
+  font-weight: 700;
+}
+
+.card-login .login-konten {
+  padding: 30px 50px;
+}
+
+.card-login .login-konten .btn-login {
+  font-size: 20px;
+  color: #2f3c80;
+  font-weight: 300;
+  border-radius: 0;
+}
+
+.card-login .login-konten .btn-login:hover {
+  font-weight: 700;
+  border-bottom: 1px solid #f4a81e;
+}
+
+.card-login .login-konten .form-login {
+  margin-bottom: 3rem;
+}
+
+.card-login .login-konten .form-login .form-group label {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.card-login .login-konten .form-login .form-group input::-webkit-input-placeholder {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-login .login-konten .form-login .form-group input:-ms-input-placeholder {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-login .login-konten .form-login .form-group input::-ms-input-placeholder {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-login .login-konten .form-login .form-group input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-login .login-konten .form-login .form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-login .login-konten .form-login .form-check .form-check-label {
+  font-size: 12px;
+  color: #b5b5b5;
+}
+
+.card-login .login-konten .form-login .form-check .form-check-input {
+  color: #ff0000;
+}
+
+.card-login .login-konten .btn-login-submit {
+  width: 100%;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #f4a81e;
+}
+
+.card-login .login-konten .btn-login-facebook,
+.card-login .login-konten .btn-login-google {
+  border-radius: 20px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.card-login .login-konten .btn-login-facebook {
+  background-color: #4267b2;
+}
+
+.card-login .login-konten .btn-login-google {
+  background-color: #eb4132;
+}
+/*# sourceMappingURL=login.css.map */
