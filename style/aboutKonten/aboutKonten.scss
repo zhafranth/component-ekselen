@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  color: #2f3c80;
+}
+
+.about-konten {
+  .title {
+    font-weight: 700;
+    margin-bottom: 1.65rem;
+  }
+  .konten {
+    margin-bottom: 3.532rem;
+    p {
+      font-size: 14px;
+      color: #5a5a5a;
+      line-height: 1.92rem;
+    }
+  }
+  .title-benefit-about {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 4rem;
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .konten-benefit {
+    text-align: center;
+    h4 {
+      margin: 2rem 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #b9b9b9;
+    }
+  }
+}
