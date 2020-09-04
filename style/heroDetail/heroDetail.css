@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3c80;
+}
+
+.hero-detail {
+  padding: 70px 0;
+  background: #5872f6;
+  background: linear-gradient(171deg, #5872f6 0%, #252e60 100%);
+}
+
+.hero-detail .konten-hero-detail {
+  color: #ffffff;
+}
+
+.hero-detail .konten-hero-detail h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-detail .konten-hero-detail p {
+  font-size: 18px;
+  margin: 1.7rem 0;
+  font-weight: 300;
+}
+
+.hero-detail .konten-hero-detail .rating-kelas {
+  margin-bottom: 1rem;
+}
+
+.hero-detail .konten-hero-detail .rating-kelas p {
+  display: inline;
+  margin-left: 10px;
+}
+
+.hero-detail .konten-hero-detail .rating-kelas h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hero-detail .konten-hero-detail .instruktur-profil-detail-hero h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero-detail .konten-hero-detail .instruktur-profil-detail-hero p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.hero-detail .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.hero-detail .breadcrumb .breadcrumb-item {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero-detail .breadcrumb .breadcrumb-item a {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.hero-detail .breadcrumb .breadcrumb-item::before {
+  color: #ffffff;
+}
+/*# sourceMappingURL=heroDetail.css.map */
